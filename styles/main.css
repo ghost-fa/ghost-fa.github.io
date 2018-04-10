@@ -1,3 +1,30 @@
-.container {
-  min-height: 100vh;
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Philosopher');
+header {
+  font-family: 'Cinzel Decorative', "cursive";
+}
+
+main {
+  font-family: 'Philosopher', sans-serif;
+  min-height: calc(100vh - 400px)
+}
+
+i {
+  border-radius: 50%;
+}
+
+img {
+  width: 200;
+  height: 200px;
+}
+
+textarea {
+  width: 100%;
+  height: 279px;
+}
+
+input, textarea, form {
+  border: 0;
+  color: white !important;
+  padding: 10px;
+  background: #4b5456 !important;
 }
